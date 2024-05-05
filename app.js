@@ -38,7 +38,7 @@ document.getElementById('listItemForm').addEventListener('submit', function(even
         let signer = provider.getSigner();
 
         // Instantiate the contract
-        let contractAddress = '0x39C3f17b2a4b719DE820a8d51c2BE40C34100e00'; // Replace with your contract address
+        let contractAddress = '0xcc71cc601775a01b1ecf4f5a4f3526e460ac214d'; // Replace with your contract address
         let abi = [
             {
                 "inputs": [],
@@ -358,7 +358,7 @@ function displayItemsForSale() {
     ethereum.request({ method: 'eth_requestAccounts' }).then(accounts => {
         let userAccount = accounts[0];
         let provider = new ethers.providers.Web3Provider(window.ethereum);
-        let contractAddress = '0x39C3f17b2a4b719DE820a8d51c2BE40C34100e00'; // Replace with your contract address
+        let contractAddress = '0xcc71cc601775a01b1ecf4f5a4f3526e460ac214d'; // Replace with your contract address
         let abi = [
             {
                 "inputs": [],
@@ -697,7 +697,7 @@ function purchaseItem(itemId) {
         let account = accounts[0];
         let provider = new ethers.providers.Web3Provider(window.ethereum);
         let signer = provider.getSigner();
-        let contractAddress = '0x39C3f17b2a4b719DE820a8d51c2BE40C34100e00'; // Replace with your contract address
+        let contractAddress = '0xcc71cc601775a01b1ecf4f5a4f3526e460ac214d'; // Replace with your contract address
         let abi = [
             {
                 "inputs": [],
