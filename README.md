@@ -4,9 +4,9 @@
 * Remix - To deploy the smart contract
 * Vscode - Frontend integration
 * Metamask - Ethereum wallet
-#### Tools/Interfaces used - 
+#### Languages used - 
 * Solidity - To deploy the smart contract
-* node.js - Frontend integration
+* javascript - Frontend integration
 ### This project involves three main tasks-
 * Connecting to the user’s Metamask wallet
 * User able to List his/her item.
